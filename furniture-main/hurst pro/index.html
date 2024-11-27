@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css "
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css "
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+           
+        }
+.card{
+    justify-content: space-between;
+    gap: 30px;
+   margin-top: 30px;
+   margin-left: 60px;
+   margin-bottom: 60px;
+}
+
+
+        /*.card {
+             height: 300px;
+            width: 100px !important;
+             width: 100%; 
+             width: 400px; 
+             border: solid 2px black; 
+        }*/
+
+        .card img {
+            justify-content: space-between;
+            gap: 30px;
+            height: 300px;
+            width: 300px !important;
+        }
+
+        .slick-prev {
+            background: grey !important;
+            left: -30px;
+        }
+
+        .slick-next {
+            background: grey;
+            right: -50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <img class="logo" src="./images/logo.webp" alt="">
+    <div class="col">
+        <div class="para1">
+            <div class="box-10">
+          <p class="name" >  product Name</p>
+            <h3>Furniture</h3>
+       
+             <p class="head" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, voluptatibus!</p>
+           
+            <button class="btn-1">Buy Now</button>
+                    </div>
+                    <div class="box1">
+                        <p class="name" > New product-2021</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, asperiores!
+                        </p>
+                        <button class="btn-2" >Buy Now</button>
+                    </div>
+        </div>
+        <div class="para2">
+          <h1>WELCOME TO OUR </h1>
+           <h2>FURNITURE</h2>
+            <p>GALLERY 2021</p>
+           <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable
+        </h3>
+                <button class="btn" >Shop Now</button>
+        </div>
+    </div>
+
+    <div class="fproduct">
+        <div class="featurehead">
+            Featured Products
+        </div>
+        <div class="container">
+
+            <div class="parent">
+                <div class="card">
+                    <img src="./images/2 (2).webp" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/8.webp" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/4.webp" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/5.webp" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/6.webp" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/7.webp" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/8.webp" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/9.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js "
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js "
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js "
+        integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.parent').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true
+            });
+        });
+    </script>
+    </div>
+
+<div class="mainsec">
+   <img class="sec1" src="./images/s1.png" alt="">
+</div>
+
+
+
+    <div class="purchase">
+        <div class="headp">
+            Purchase Online on Hurst
+            <h6>New Arrivals</h6>
+        </div>
+        <div class="imgsec">
+            <div class="imgsec1">
+                <img src="./images/4.webp" alt="">
+                <img src="./images/5.webp" alt="">
+                <img src="./images/6.webp" alt="">
+                <img src="./images/7.webp" alt="">
+            </div>
+            <div class="imgsec1">
+                <img src="./images/6.webp" alt="">
+                <img src="./images/5.webp" alt="">
+                <img src="./images/2 (2).webp" alt="">
+                <img src="./images/4.webp" alt="">
+            </div>
+        </div>
+    </div>
+   
+    <div class="purchase">
+        <div class="headp1">
+            From The Blog
+            
+        </div>
+       <div class="parent-img">
+        <div class="date">
+            <div class="datei">
+                <img src="./images/1 (4).webp" height="200px" alt="">
+            </div>
+         <div class="datap">
+            JUNE,2021 <br>
+            FURNITURE DRAWING 2021 <br>
+            89 Like <br>
+            59 Comments <br>
+            29 share <br>
+            
+               <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae tempora fugit ratione soluta, corrupti dolorem minima impedit placeat nisi tempore? Nostrum quod quasi impedit nam adipisci. Deserunt officia dicta natus! Lorem ipsum, dolor sit amet <br></p>
+            
+         </div>
+        </div>
+         <div class="date">
+            <div class="datei">
+                <img src="./images/2 (1).webp" height="200px" alt="">
+            </div>
+         <div class="datap">
+            JUNE,2021 <br>
+            FURNITURE DRAWING 2021 <br>
+            89 Like <br>
+            59 Comments <br>
+            29 share <br>
+            
+               <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae tempora fugit ratione soluta, corrupti dolorem minima impedit placeat nisi tempore? Nostrum quod quasi impedit nam adipisci. Deserunt officia dicta natus! Lorem ipsum, dolor sit amet <br></p>
+            
+         </div>
+        </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="box">
+            <!-- <input type="email" placeholder="ENTER YOUR EMAILL HERE .." name="" id=""> -->
+    </div>
+
+    <div class="footer">
+        <div class="footer1">
+            <P><b>CONTACT US </b></P>
+            <br>
+            <P>Address:28 Green Tower, Street Name,
+                New York City, USA</P>
+                <P>Cell-Phone :012345 - 123456789</P>
+                <P>Email :your-email@gmail.com</P>
+        </div>
+        <div class="footer1-0">
+            <P><b>Accounts</b></P>
+            <br>
+            <P>My Accounts</P>
+                <P>My Wishlist</P>
+                <P>My Car</P>
+                <P>Sign In</P>
+                <P>Check Out</P>
+        </div>
+        <div class="footer1-0">
+            <P><b>Shipping</b></P>
+            <br>
+            <P>New Products</P>
+                <P>Top Seller</P>
+                <P>Manufactries</P>
+                <P>suppliers</P>
+                <P>specials</P>
+        </div>
+        <div class="footer1-1">
+            <H1><B>YOUR CHOICE PRODUCTS</B></H1>
+          <div class="child">
+            <div class="c1">
+                <img src="./images/1 (5).webp" alt="">
+            </div>
+            <div class="c2">
+                <img src="./images/1 (6).webp" alt="">
+            </div>
+          </div>
+        </div>
+
+
+
+    </div>
+
+
+
+   
+</body>
+</html>
+
+
